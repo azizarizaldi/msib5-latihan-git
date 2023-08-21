@@ -42,6 +42,11 @@
     </style>
 </head>
 <body>
+    <?php
+        $fullname   = "Aziz Arif Rizaldi";
+        $collage    = "Sekolah Tinggi Teknologi Bandung";
+        $activity   = "Full Stack Web Developer";
+    ?>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -52,17 +57,17 @@
                     <div class="card-body text-center">
                         <div class="mb-3">
                             <label for="nama" class="form-label">Nama Lengkap</label>
-                            <p class="form-control-static fw-bold">Aziz Arif Rizaldi</p>
+                            <p class="form-control-static fw-bold"><?=$fullname?></p>
                         </div>
                         <hr/>
                         <div class="mb-3">
                             <label for="alamat" class="form-label">Asal Perguruan Tinggi</label>
-                            <p class="form-control-static fw-bold">Sekolah Tinggi Teknologi Bandung</p>
+                            <p class="form-control-static fw-bold"><?=$collage?></p>
                         </div>
                         <hr/>
                         <div class="mb-3">
                             <label for="umur" class="form-label">Activity</label>
-                            <p class="form-control-static fw-bold">Full Stack Web Developer</p>
+                            <p class="form-control-static fw-bold"><?=$activity?></p>
                         </div>
                     </div>
                 </div>
